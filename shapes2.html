@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en"
+        style="font:90%/1.3 arial;">
+<head>
+    <meta charset="UTF-8">
+    <title>Shape Calculations</title>
+</head>
+<body>
+
+    <a href="http://www.google.com">
+        <img src="https://gun.io/static/uploads/HTML%3ACSS3.jpg"
+             alt="HTML!!!" height="100" width="100">
+    </a>
+
+    <form method="get"
+          id="sphereForm">
+        <fieldset style="border:3px solid #ff66d9">
+            <h3>Spheres:</h3>
+            <div>
+            <label for="radius">Radius:</label>
+            <input type="text"
+                   id="radius"
+                   name="radius" required>
+            </div>
+            <div>
+            <label for="volume">Volume:</label>
+            <input type="text"
+                   id="volume"
+                   name="volume" readonly>
+            </div>
+            <div>
+            <input type="submit"
+                   id="submit"
+                   value="Calculate">
+            </div>
+        </fieldset>
+    </form>
+    <form method="get"
+          id="coneForm">
+
+        <fieldset>
+            <h3>Cones:</h3>
+            <table border="2">
+                <tr>
+                    <td>
+                        <label for="cradius">Radius:</label>
+                    </td>
+                    <td>
+                        <input type="text"
+                               id="cradius"
+                               name="cradius"
+                               required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="height">Height:</label>
+                    </td>
+                    <td>
+                        <input type="text"
+                               id="height"
+                               name="height"
+                               required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="cvolume">Volume:</label>
+                    </td>
+                    <td>
+                        <input type="text"
+                               id="cvolume"
+                               name="cvolume"
+                               readonly>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <input type="submit"
+                               value="Calculate"
+                               id="csubmit">
+                    </td>
+                </tr>
+            </table>
+
+
+        </fieldset>
+    </form>
+
+</body>
+</html>
